@@ -1,30 +1,26 @@
 ---
-layout: default
+layout: home
 ---
 
-<body>
-  <div class="index-wrapper">
-    <div class="aside">
-      <div class="info-card">
-      <a href="{{ page.url }}" >
-        <h1>weithink</h1>
-        </a>
-        <a href=" " target="_blank"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
-        <a href=" " target="_blank"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
-        <a href="" target="_blank"><img src="http://d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/favicon.ico" alt="" width="22"/></a>
-      </div>
-      <div id="particles-js"></div>
-    </div>
+<div class="index-content blog">
+    <div class="section">
+        <ul class="artical-cate">
+            <li class="on"><a href="/"><span>Blog</span></a></li>
+            <li style="text-align:center"><a href="/opinion"><span>Opinion</span></a></li>
+            <li style="text-align:right"><a href="/project"><span>Project</span></a></li>
+        </ul>
 
-    <div class="index-content">
-      <ul class="artical-list">
+        <div class="cate-bar"><span id="cateBar"></span></div>
+
+        <ul class="artical-list">
         {% for post in site.categories.blog %}
-        <li>
-          <a href="{{ post.url }}" class="title">{{ post.title }}</a>
-          <div class="title-desc">{{ post.description }}</div>
-        </li>
+            <li>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <div class="title-desc">{{ post.description }}</div>
+            </li>
         {% endfor %}
-      </ul>
+        </ul>
     </div>
-  </div>
-</body>
+    <div class="aside">
+    </div>
+</div>
