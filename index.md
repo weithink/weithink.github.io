@@ -6,7 +6,9 @@ layout: default
   <div class="index-wrapper">
     <div class="aside">
       <div class="info-card">
+      <a href="{{ page.url }}" >
         <h1>weithink</h1>
+        </a>
         <a href=" " target="_blank"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
         <a href=" " target="_blank"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
         <a href="" target="_blank"><img src="http://d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/favicon.ico" alt="" width="22"/></a>
