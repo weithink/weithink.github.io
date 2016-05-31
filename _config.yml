@@ -5,7 +5,7 @@ pygments: true
 paginate: 8
 permalink: /:title
 
-title:  weithin
-url: http://test2.com
+title:  weithink
+url: http://8cm.club
 feed: /atom.xml
-author_info: <a href="http://test1.com/">test1</a>
+author_info: <a href="http://8cm.club/">weithink</a>
