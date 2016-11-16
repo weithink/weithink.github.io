@@ -6,6 +6,6 @@ paginate: 8
 permalink: /:title
 
 title:  weithink
-url: http://8cm.club
+url: http://qingke.co
 feed: /atom.xml
-author_info: <a href="http://8cm.club/">weithink</a>
+author_info: <a href="http://qingke.co/">weithink</a>
