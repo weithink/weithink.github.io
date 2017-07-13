@@ -1,7 +1,7 @@
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
-
+theme: next
 # Put your favicon.ico into `hexo-site/source/` directory.
 favicon: /favicon.ico
 
