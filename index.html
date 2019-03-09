@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>通过input标签上传图片</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <style type="text/css" >
+      .file {position: relative;display: inline-block;background: #D0EEFF;border: 1px solid #99D3F5;border-radius: 4px;padding: 4px 12px;overflow: hidden;color: #1E88C7;text-decoration: none;text-indent: 0;line-height: 20px;}
+      .file input {position: absolute;font-size: 100px;right: 0; top: 0;opacity: 0;}
+      #content{ width: 100%; height: 90% ; background: #ebebeb ;position: absolute;top: 10%;}
+      body{width: 100%;height: 100%;margin: 0;padding: 0; position: relative;}
+      html{width: 100%;height: 100%;margin: 0;padding: 0}
+      .body{position: absolute; left: 0 ;right: 0 ; top: 0 ; margin:0 auto;max-width: 750px;height: 100%}
+      #title{width: 100%; height: 10%;background: #f9f9f9;padding-top: 0px ;position: absolute;padding: 0px}
+      #preview{display: block;margin: 0 auto;max-width: 60%;margin-top: 20px}
+      a{display: block;margin: 0 auto;width: 50%;height: 30px;text-align: center;line-height: 30px;margin-bottom: 20px}
+      h4{text-align:center;line-height: 50px;}
+      #title div{width: 200px;height: 100px; position:relative;left: 50%;top: 50%;margin-left: -100px;margin-top: -50px;overflow: scroll;}
+      #content div{margin: 0 auto;width: 80%;height: 80%;border:3px solid #41a0f2;margin-top: 50px;overflow: scroll;}
+      #content .file{display: block;margin: 0 auto;width: 50%;height: 30px;text-align: center;line-height: 30px;margin-bottom: 20px}
+    </style>
+    <script language="javascript">
+    $(document).ready(function() {
+        form.reset();
+        var file;
+        $(form).on("change", "#img_upload", function() {
+            var file = $(this);
+            var fileObj = file[0];
+            var windowURL = window.URL || window.webkitURL;
+            var dataURL;
+            var imgPreview = $("#preview");
+            if (fileObj && fileObj.files && fileObj.files[0]) {
+                dataURL = windowURL.createObjectURL(fileObj.files[0]);
+                imgPreview.attr('src', dataURL);
+            }
+            //选中的结果 文件在手机上的路径
+            console.log(this.value);
+            alert(this.value);
+        });
+    });
+    </script>
+</head>
+<body >
+<div class ="body">
+        <div id="title">
+            <div >
+                <font color="#000">
+                    <h4 >上传图片演示</h4> </font>
+            </div>
+        </div>
+        <div id="content">
+            <div >
+                <img id="preview" >
+                </img>
+                <a href="javascript:;" class="file">选择文件
+                    <form id="form">
+                        <input id="img_upload" capture="camera" multiple="multiple" type="file" name="" id=""  accept=*/*,"   >
+                    </form>
+                </a>
+            </div>
+        </div>
+</div>
+</body>
+</html>
