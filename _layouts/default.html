@@ -23,9 +23,10 @@
 
       <div id="banner">
         <span id="logo"></span>
+        <div class="nav_bar">
+          <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
+        </div>
 
-        <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
-        {% include nav.html %}
         {% if site.show_downloads %}
           <div class="downloads">
             <span>Downloads:</span>
