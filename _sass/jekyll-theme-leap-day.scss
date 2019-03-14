@@ -350,8 +350,8 @@ footer {
   text-align: right;
   line-height: 16px;
 }
-/*and (max-width: 1060px)*/
-@media print, screen  {
+/**/
+@media print, screen and (max-width: 1060px) {
 
   div.wrapper {
     width:auto;
