@@ -1,13 +1,5 @@
-title: weithink
-description: weithink's GitHub Pages.
+title: Leap Day theme
+description: Leap Day is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-leap-day
-github:
-  zip_url: http://example.com/download.zip
-  another_url: another value
-  repository_url:https://www.weithink.cn
-
-future: true
-timezone: UTC+8
-lang:zh-CN
