@@ -7,4 +7,7 @@ github:
   zip_url: http://example.com/download.zip
   another_url: another value
   repository_url:https://www.weithink.cn
+
+future: true
+timezone: UTC+8
 lang:zh-CN
