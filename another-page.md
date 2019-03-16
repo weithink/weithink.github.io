@@ -5,9 +5,8 @@ layout: default
 ## Welcome to another page
 
 [back](./)
-{% highlight html %}
-<!DOCTYPE HTML>
 
+<!DOCTYPE HTML>
 <html>
 <body>
   <div class="ms-list">
@@ -348,4 +347,3 @@ document.querySelector('#clearCache').onclick = function() {
 
 </body>
 </html>
-{% endhighlight %}
