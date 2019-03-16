@@ -6,8 +6,6 @@ layout: default
 
 [back](./)
 
-<!DOCTYPE HTML>
-<html>
 <body>
   <div class="ms-list">
   <h2>h5调用Native方法（js）</h2>
@@ -200,11 +198,11 @@ function web2app(name, aData, fn, aCallback) {
   typeof fn === 'function' && fn(JSON.parse(data));
     });
 
-      /****web调用app***/
 
+      /****web调用app***/
   //分享url
     document.querySelector('#share').onclick = function() {
-      web2app('share',{title:'金主邦分享',desc:'<http://baidu.com',link:'http://baidu.com',imgUrl:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536565376247&di=2e3be825e12331d268301f962a052194&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01f09e577b85450000012e7e182cf0.jpg%401280w_1l_2o_100sh.jpg',way:'1',callback:'e'}>,
+      web2app('share',{title:'金主邦分享',desc:'http://baidu.com',link:'http://baidu.com',imgUrl:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536565376247&di=2e3be825e12331d268301f962a052194&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01f09e577b85450000012e7e182cf0.jpg%401280w_1l_2o_100sh.jpg',way:'1',callback:'e'},
       function(){},function(result){
           var log = document.getElementById('share_back')
         log.innerHTML = 'result :<br/>' + JSON.stringify(result)
@@ -212,7 +210,7 @@ function web2app(name, aData, fn, aCallback) {
       }
       //分享海报
     document.querySelector('#sharePoster').onclick = function() {
-      web2app('sharePoster',{title:'<http://baidu.com',desc:'http://baidu.com',link:'http://baidu.com',way:'wxTimeline',imgUrl:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536565376247&di=2e3be825e12331d268301f962a052194&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01f09e577b85450000012e7e182cf0.jpg%401280w_1l_2o_100sh.jpg',callback:'e'}>,
+      web2app('sharePoster',{title:'http://baidu.com',desc:'http://baidu.com',link:'http://baidu.com',way:'wxTimeline',imgUrl:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536565376247&di=2e3be825e12331d268301f962a052194&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01f09e577b85450000012e7e182cf0.jpg%401280w_1l_2o_100sh.jpg',callback:'e'},
           function(){},function(result){
           var log = document.getElementById('sharePoster_back')
         log.innerHTML = 'result :<br/>' + JSON.stringify(result)
@@ -220,7 +218,7 @@ function web2app(name, aData, fn, aCallback) {
       }
       //保存海报
     document.querySelector('#saveImg').onclick = function() {
-      web2app('saveImg',{callback:'w',imgUrl:'<https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536565376247&di=2e3be825e12331d268301f962a052194&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01f09e577b85450000012e7e182cf0.jpg%401280w_1l_2o_100sh.jpg'}>,
+      web2app('saveImg',{callback:'w',imgUrl:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536565376247&di=2e3be825e12331d268301f962a052194&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01f09e577b85450000012e7e182cf0.jpg%401280w_1l_2o_100sh.jpg'},
       function(){},function(result){
           var log = document.getElementById('saveImg_back')
         log.innerHTML = 'result :<br/>' + JSON.stringify(result)
@@ -236,7 +234,7 @@ function web2app(name, aData, fn, aCallback) {
       }
         //加载指定页面
     document.querySelector('#loadUrl').onclick = function() {
-      web2app('openWebPage',{link:'<https://baidu.com'},function(){},function(){}>);
+      web2app('openWebPage',{link:'https://baidu.com'},function(){},function(){});
       }
         //回退到上一页
     document.querySelector('#goBack').onclick = function() {
@@ -267,14 +265,14 @@ function web2app(name, aData, fn, aCallback) {
       }
       //用自带浏览器打开url
     document.querySelector('#openWhithLocalBrowser').onclick = function() {
-          web2app('openWhithLocalBrowser',{link:'<http://baidu.com',callback:'b'},function(result){},function(result){>
+          web2app('openWhithLocalBrowser',{link:'http://baidu.com',callback:'b'},function(result){},function(result){
               var log = document.getElementById('openWhithLocalBrowser_back')
               log.innerHTML = 'result :<br/>' + JSON.stringify(result)
           })
       }
       //用自带浏览器打开url
     document.querySelector('#openWhithLocalBrowser').onclick = function() {
-          web2app('openWhithLocalBrowser',{link:'<http://baidu.com',callback:'b'},function(result){},function(result){>
+          web2app('openWhithLocalBrowser',{link:'http://baidu.com',callback:'b'},function(result){},function(result){
               var log = document.getElementById('openWhithLocalBrowser_back')
               log.innerHTML = 'result :<br/>' + JSON.stringify(result)
           })
@@ -295,7 +293,7 @@ function web2app(name, aData, fn, aCallback) {
      }
       //用新界面打开一个连接
     document.querySelector('#openWhithNewPage').onclick = function() {
-         web2app('openWhithNewPage',{link:'<http://baidu.com/',callback:'b',showBar:'show'},function(result){},function(result){>
+         web2app('openWhithNewPage',{link:'http://baidu.com/',callback:'b',showBar:'show'},function(result){},function(result){
                var log = document.getElementById('openWhithNewPage_back')
                log.innerHTML = 'result :<br/>' + JSON.stringify(result)
          })
@@ -346,4 +344,3 @@ document.querySelector('#clearCache').onclick = function() {
 </script>
 
 </body>
-</html>
