@@ -14,6 +14,7 @@ encoding: UTF-8
 # permalink: /:categories/:year/:month/:day/:title:output_ext
 menu:
   home:/
+  
 collections:
   staff_members:
     people: true
