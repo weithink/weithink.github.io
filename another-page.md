@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /demo.html/:title:output_ext
+permalink: /demo.html
 ---
 
 ## Welcome to another page
