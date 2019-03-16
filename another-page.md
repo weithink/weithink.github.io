@@ -342,5 +342,4 @@ document.querySelector('#clearCache').onclick = function() {
    })
  }
 </script>
-
 </body>
