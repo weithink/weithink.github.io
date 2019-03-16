@@ -6,7 +6,6 @@ layout: default
 
 [back](./)
 
-<body>
   <div class="ms-list">
   <h2>h5调用Native方法（js）</h2>
   <ul>
@@ -342,4 +341,3 @@ document.querySelector('#clearCache').onclick = function() {
    })
  }
 </script>
-</body>
