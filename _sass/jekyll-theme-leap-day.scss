@@ -390,6 +390,7 @@ footer {
 
     .downloads {
       margin-right: 60px;
+
       span {
         display: none;
       }
@@ -495,13 +496,7 @@ footer {
     display: none;
   }
 }
-@media print {
-  body {
-    padding: 0.4in;
-    font-size: 12pt;
-    color: #444;
-  }
-}
+
 @media print, screen and (max-height: 680px) {
   footer {
     text-align: center;
@@ -524,5 +519,13 @@ footer {
     left: auto;
     bottom: auto;
     width: auto;
+  }
+}
+
+@media print {
+  body {
+    padding: 0.4in;
+    font-size: 12pt;
+    color: #444;
   }
 }
