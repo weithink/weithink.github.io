@@ -5,7 +5,7 @@ layout: default
 ## Welcome to another page
 
 [back](./)
-{% highlight html linenos %}
+{% highlight html %}
 <!DOCTYPE HTML>
 
 <html>
