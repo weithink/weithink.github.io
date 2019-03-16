@@ -5,7 +5,10 @@ layout: default
 ## Welcome to another page
 
 [back](./)
+{% highlight html linenos %}
+<!DOCTYPE HTML>
 
+<html>
 <body>
   <div class="ms-list">
   <h2>h5调用Native方法（js）</h2>
@@ -341,7 +344,8 @@ document.querySelector('#clearCache').onclick = function() {
          log.innerHTML = 'result :<br/>' + JSON.stringify(result)
    })
  }
-
 </script>
 
 </body>
+</html>
+{% endhighlight %}
