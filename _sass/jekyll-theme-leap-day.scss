@@ -248,6 +248,7 @@ header {
     margin: 0 45px 0 0;
 
     span {
+      display: none;
       float: left;
       line-height: 52px;
       font-size: 90%;
@@ -389,6 +390,9 @@ footer {
 
     .downloads {
       margin-right: 60px;
+      span {
+        display: none;
+      }
     }
 
     .fork {}
