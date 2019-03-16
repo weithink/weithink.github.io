@@ -113,14 +113,14 @@ layout: default
 </ul>
 </div>
 <div id='log'></div>
+
 <script>
-<!-- var bridge = window.__SHANGHAIWEICHUANG_KUANYEBANG__web2app__; -->
       var bridge = window.__SHANGHAIWEICHUANG_KUANYEBANG__web2app__;
       function global(name, val) {
           var iName = '__SHANGHAIWEICHUANG_KUANYEBANG__' + name + '__';
           return arguments.length > 1 ? (window[iName] = val) : window[iName];
       }
-      function log(message, data) {
+    function log(message, data) {
     var log = document.getElementById('log')
     var el = document.createElement('div')
     el.className = 'logLine'
