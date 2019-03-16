@@ -6,5 +6,5 @@ google_analytics:
 theme: jekyll-theme-leap-day
 timezone: Asia/Shanghai
 encoding: UTF-8
-github:
-  repository_url:www.weithink.cn
+nav:
+  home:www.weithink.cn
