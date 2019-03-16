@@ -20,7 +20,7 @@ layout: default
           <div class="text" id="sharePoster_back">分享海报结果</div>
       </li>
       <li>
-          <a class="btn" href="https://kxtapp.oss-cn-zhangjiakou.aliyuncs.com/KxtApp_17.apk">直接访问下载链接</a>
+          <a class="btn" href='https://kxtapp.oss-cn-zhangjiakou.aliyuncs.com/KxtApp_17.apk'>直接访问下载链接</a>
           <div class="text">应用内下载apk 下载链接</br>
               https://kxtapp.oss-cn-zhangjiakou.aliyuncs.com/KxtApp_17.apk
           </div>
