@@ -12,11 +12,8 @@ timezone: Asia/Shanghai
 encoding: UTF-8
 # 链接自定义
 # permalink: /:categories/:year/:month/:day/:title:output_ext
-nav:
-  home:www.weithink.cn
+menu:
+  home:/
 collections:
   staff_members:
     people: true
-
-menu:
-  home: /
