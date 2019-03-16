@@ -1,0 +1,78 @@
+html { font-family:Helvetica;
+    color:#222;
+    }
+h1 {
+    color:steelblue;
+    font-size:24px;
+    margin-top:24px;
+    text-align:center;
+  }
+  h2 {
+  margin-top: 0;
+  text-align:center;
+  }
+button { margin:0 3px 10px; font-size:12px; }
+.logLine { border-bottom:1px solid #ccc; padding:4px 2px; font-family:courier; font-size:11px; }
+
+  body {
+  background-color: #ededf0;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  }
+
+  ul,
+  ol {
+  list-style: none;
+  }
+
+  li,
+  ul,
+  ol {
+  padding: 0;
+  margin: 0;
+  }
+
+  .btn {
+    display: block;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #444;
+  }
+
+  .btn:active {
+    background-color: #eee;
+  }
+
+  .text {
+    border: 1px solid #999;
+    background-color: #eee;
+    padding: 10px;
+    line-height: 1.3;
+  }
+
+  .ms-list {
+    margin-bottom: 20px;
+    background-color: #80CBFF;
+    padding: 10px 15px;
+  }
+  .route-list {
+    background-color: #2EE898;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+  }
+  /**margin-bottom: 20px;**/
+  .ms-list li {
+    margin-bottom: 10px;
+  }
+  .route-list li {
+    margin-bottom: 10px;
+  }
+  .div {
+    background: #fff;
+  }
