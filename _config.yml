@@ -11,6 +11,6 @@ timezone: Asia/Shanghai
 # 编码
 encoding: UTF-8
 # 链接自定义
-permalink: /:categories/:year/:month/:day/:title:output_ext
+# permalink: /:categories/:year/:month/:day/:title:output_ext
 nav:
   home:www.weithink.cn
