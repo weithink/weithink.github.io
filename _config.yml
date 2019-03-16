@@ -14,7 +14,6 @@ encoding: UTF-8
 # permalink: /:categories/:year/:month/:day/:title:output_ext
 nav:
   home:www.weithink.cn
-
 collections:
   staff_members:
     people: true
