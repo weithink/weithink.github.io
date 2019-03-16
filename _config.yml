@@ -1,10 +1,16 @@
 version: 1.0.1
 title: weithink
 description: weithink's GitHub Pages.
+# 是否显示下载
 show_downloads: true
 google_analytics:
+  # 主题
 theme: jekyll-theme-leap-day
+# 语言
 timezone: Asia/Shanghai
+# 编码
 encoding: UTF-8
+# 链接自定义
+permalink: /:categories/:year/:month/:day/:title:output_ext
 nav:
   home:www.weithink.cn
