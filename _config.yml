@@ -1,6 +1,10 @@
-version: 1.0.0
+version: 1.0.1
 title: weithink
 description: weithink's GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-leap-day
+
+lang:zh-CN
+github:
+  repository_url:https://www.weithink.cn
