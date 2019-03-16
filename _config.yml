@@ -17,3 +17,6 @@ nav:
 collections:
   staff_members:
     people: true
+
+menu:
+  home: /
