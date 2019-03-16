@@ -5,6 +5,6 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-leap-day
 timezone: Asia/China
-lange:zh-CN
+encoding: UTF-8
 github:
   repository_url:https://www.weithink.cn
