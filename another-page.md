@@ -111,7 +111,9 @@ layout: default
       <div class="text" id="updateImg_back" >上传图片回调</div>
   </li>
 </ul>
+
 </div>
+
 <div id='log'></div>
 
 <script>
