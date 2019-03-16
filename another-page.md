@@ -65,9 +65,9 @@ layout: default
           <div class="text" >jin://jinzb</div>
       </li>
       <li>
-          <a  class="btn" href="telprompt://13175137233" >拨打电话</a>
+          <a class="btn" href="telprompt://13175137233" >拨打电话</a>
           <div class="text" >13175137233</div>
-      </li
+      </li>
 
   </ul>
 </div>
