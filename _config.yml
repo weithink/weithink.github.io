@@ -4,7 +4,7 @@ description: weithink's GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-leap-day
-
-lang:zh-CN
+timezone: Asia/China
+lange:zh-CN
 github:
   repository_url:https://www.weithink.cn
