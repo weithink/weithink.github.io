@@ -10,7 +10,7 @@ theme: jekyll-theme-leap-day
 timezone: Asia/Shanghai
 # 编码
 encoding: UTF-8
-lang:zh-CN
+# lang:zh-CN
 # 链接自定义
 # permalink: /:categories/:year/:month/:day/:title:output_ext
 menu:
