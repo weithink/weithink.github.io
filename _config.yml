@@ -1,8 +1,8 @@
 version: 1.0.1
-title: weithink
-description: weithink's GitHub Pages.
+title: 下载帮助
+description: 下载帮助
 # 是否显示下载
-show_downloads: true
+show_downloads: false
 google_analytics:
   # 主题
 theme: jekyll-theme-leap-day
